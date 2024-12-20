@@ -1,0 +1,25 @@
+{
+    "name": "stats_control",
+    "displayName": "Stats Control",
+    "description": "Отслеживает статистику по проекту",
+    "version": "0.0.1",
+    "publisher": "Maxim Kolesov",
+    "engines": {
+      "vscode": "^1.50.0"
+    },
+    "activationEvents": [
+      "onStartupFinished",
+      "onCommand:stats_control.show_stats"
+    ],
+    "main": "./dist/extension.js",
+    "contributes": {
+      "commands": [
+        {
+          "command": "stats_control.show_stats",
+          "title": "Show Stats"
+        }
+      ]
+    },
+    "dependencies": {}
+  }
+  
